@@ -1,0 +1,8 @@
+[Unit]
+Description=Reads Temp from DS1820 sensor
+
+[Service]
+Type=oneshot
+ExecStart=/etc/systemd/system/temp.py
+User=nobody
+Group=systemd-journal
