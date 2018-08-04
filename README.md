@@ -3,11 +3,15 @@ Raspberry Pi temperature recording
 
 ## Hardware Installation
 Add 
+```
 	w1-gpio
 	w1-therm
+```
 to ```/etc/modules```
 and
+```
 	dtoverlay=w1-gpio
+```
 to ```/boot/config.txt```
 
 ## Systemd Timer
