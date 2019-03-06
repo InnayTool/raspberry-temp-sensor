@@ -23,6 +23,9 @@ Copy temp.service to
 
 Copy temp.py to
 	/etc/systemd/system/temp.py
+	
+Copy temp.sh to
+	/etc/systemd/system/temp.sh
 
 Enable Timer
 	systemctl enable temp
