@@ -11,4 +11,3 @@ line = inp.read()
 
 out.write(str(datetime.now()) + ": " + line[:-4] + "," + line[-4:-1] + " °C\n")
 out.close()
-print("Hallo Welt")
